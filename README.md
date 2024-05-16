@@ -1,9 +1,53 @@
-# Banking--Sytem
-Banking System with some features like opening account and tranfering the amount to other account and printing passbook.
-This  program is built with the file handling. This banking system is not on the database like SQL or noSQL.
-So basically you have to download the python in your computer to run this code.
-There is Banking name file which is python file.
-You have to do the only one thing which is that you have to ensure that you have a txt file which is accountFile.txt this file is already exist into your folder.
-If you want to change file name from accountFile.txt to as you want  name of  file so you have to change some code in the file banking.py.
-You have to change the file name in the code which is in 17 line into code file1=open("accountFile","a") change the accountFile name as you want.
-Be ensure that the txt file is already have to exist in your folder which is same name you want to change in the code.
+# Banking System
+
+This is a simple Banking System built using Python. The program allows users to perform basic banking operations such as opening accounts, transferring amounts between accounts, and printing passbooks. 
+
+## Features
+
+- Open a new bank account
+- Deposit money into an account
+- Withdraw money from an account
+- Transfer money between accounts
+- Print account details and transaction history (passbook)
+
+## Getting Started
+
+To run this program, ensure that you have Python installed on your computer. 
+
+1. Clone this repository to your local machine:
+
+  git clone https://github.com/tusharChauhan/Banking--System.git
+
+3. Navigate to the project directory:
+
+cd Banking-System
+
+3. Open the `banking.py` file and locate the following line of code (line 17):
+
+## python
+file1 = open("accountFile.txt", "a")
+
+If you want to change the name of the account file, you can modify "accountFile.txt" to your desired file name.
+
+4. Ensure that the account file (accountFile.txt or your custom file name) exists in the project directory.
+
+5. Run the banking.py file:
+
+python banking.py
+
+## Usage
+
+6. Follow the on-screen instructions to perform various banking operations:
+
+- Press 1 to open a new account
+- Press 2 to deposit money
+- Press 3 to withdraw money
+- Press 4 to transfer money
+- Press 5 to print account details and transaction history (passbook)
+
+## Note
+7. This Banking System does not use any database like SQL or NoSQL. Account details and transaction history are stored in a text file (accountFile.txt or your custom file name).
+
+Feel free to modify this README file according to your project requirements.
+
+
