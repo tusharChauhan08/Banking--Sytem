@@ -1,6 +1,6 @@
 # Banking System
 
-This is a simple Banking System built using Python. The program allows users to perform basic banking operations such as opening accounts, transferring amounts between accounts, and printing passbooks. 
+  This is a simple Banking System built using Python. The program allows users to perform basic banking operations such as opening accounts, transferring amounts between accounts, and printing passbooks. 
 
 ## Features
 
@@ -16,24 +16,24 @@ To run this program, ensure that you have Python installed on your computer.
 
 1. Clone this repository to your local machine:
 
-  git clone https://github.com/tusharChauhan/Banking--System.git
+   git clone https://github.com/tusharChauhan/Banking--System.git
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
-cd Banking-System
+   cd Banking-System
 
 3. Open the `banking.py` file and locate the following line of code (line 17):
 
 ## python
-file1 = open("accountFile.txt", "a")
+  file1 = open("accountFile.txt", "a")
 
-If you want to change the name of the account file, you can modify "accountFile.txt" to your desired file name.
+  If you want to change the name of the account file, you can modify "accountFile.txt" to your desired file name.
 
 4. Ensure that the account file (accountFile.txt or your custom file name) exists in the project directory.
 
 5. Run the banking.py file:
 
-python banking.py
+   python banking.py
 
 ## Usage
 
@@ -48,6 +48,6 @@ python banking.py
 ## Note
 7. This Banking System does not use any database like SQL or NoSQL. Account details and transaction history are stored in a text file (accountFile.txt or your custom file name).
 
-Feel free to modify this README file according to your project requirements.
+   Feel free to modify this README file according to your project requirements.
 
 
